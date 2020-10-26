@@ -4,6 +4,7 @@
 
 print("een print voor de test commit naar github")
 print("Hi, this little game is based on a true story that happend but you are going to be the person of the story and you have to decide what this persons fate is going to be, good luck!.")
+print("how do you play this game? well that quite simple you answere with typing a, b or c(if that is an optoin)")
 print("the story starts in iran and you are fleeing to europe to have better and saver life for yourself and for your family.")
 print("what is your name? please think of an name dat is from around that region.")
 naam = input()
@@ -22,7 +23,7 @@ def question1():
         question13()
         
 def question2():
-    antwoord2 = input ("while walking to the north west and arriving at a coast on the border of Turkey you had to decide\nA im going with a plane to europe \nB you are going with a boat to greece \nC you are going to walk through Turkey and spmeday arrive in europe")
+    antwoord2 = input ("while walking to the north west and arriving at a coast on the border of Turkey you had to decide\nA im going with a plane to europe \nB you are going with a boat to greece \nC you are going to walk through Turkey and someday arrive in europe")
 
     if antwoord2.lower() == "a":
         print("A")
@@ -38,7 +39,7 @@ def question2():
 
 
 def question3():
-    antwoord3 = input ("vraag3")
+    antwoord3 = input ("so you took the boat but are going to greece after all or somewhere else in europe? \nA im going to greece \nB im going somewhere south west of europe ")
 
     if antwoord3.lower() == "a":
         print("A")
@@ -49,7 +50,7 @@ def question3():
         question11()
 
 def question4():
-    antwoord4 = input ("vraag4")
+    antwoord4 = input ("you arrive at the airport but you see that the plane that you want to take is delayed what will you do? \nA walk a few days more \nB you wait for the plane to arrive and then take the plane to europe ")
 
     if antwoord4.lower() == "a":
         print("A")
@@ -64,7 +65,7 @@ def question5():
     print("you have arrived at a refugee camp where you wil now live forever")
 
 def question6():
-    antwoord5 = input ("vraag6")
+    antwoord5 = input ("so you decided to take the plane but are you going to walk to the airport or if someone can bring you there \nA you are going to walk \nB you are going to ask if someone can bring you there ")
 
     if antwoord5.lower() == "a":
         print("A")
@@ -94,7 +95,7 @@ def question9():
         question16()
 
 def question10():
-    antwoord7 = input ("you arrive at the airport somewhere in europe but in the airport you see the police and try to run becuase you think they are searching for you  \nA you run as fast you can right past them \nB you make rucus and try to get away")
+    antwoord7 = input ("somewhere in europe but in the airport you see the police and try to run because you think they are searching for you  \nA you run as fast you can right past them \nB you make rucus and try to get away")
 
     if antwoord7.lower() == "a":
         print("A")
@@ -109,7 +110,7 @@ def question11():
     print("you have arrived at a refugee camp where you wil now live forever")
 
 def question12():
-    antwoord8 = input ("vraag12")
+    antwoord8 = input ("you decided to walk and after about 30 days you arrive in turkey but now you have to decide are going with a boat to greece or take a plane to central europe so what will it be? \nA you are taking the plane but first you have to walk over there \nB take the boat ")
 
     if antwoord8.lower() == "a":
         print("A")
@@ -165,7 +166,7 @@ def question18():
         question8()
 
 def question19():
-    antwoord12 = input ("vraag19")
+    antwoord12 = input ("so you decided to go north west to turkey luckely you saw that your car still has enough gas to drive to the border of europe so what will you do \nA risk it and walk \nB take the care but leaving your family behind ")
 
     if antwoord12.lower() == "a":
         print("A")
@@ -185,7 +186,7 @@ def question21():
     print("you have arrived at a refugee camp where you wil now live forever")
 
 def question22():
-    antwoord13 = input ("vraag22")
+    antwoord13 = input ("while walking trhough turkey you are looking for a airport or something else but you are also thinking at the same time do i still walk or ask if someone will bring me there. what will you do \nA you are going to walk \nB you are asking if someone can bring you there ")
 
     if antwoord13.lower() == "a":
         print("A")
